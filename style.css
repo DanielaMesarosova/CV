@@ -1,29 +1,49 @@
 body{background-color: #EEF5FC;
     font-size: 16px;
     line-height: 1.5; 
-    font-family: 'Inclusive Sans', sans-serif;}
+    font-family: 'Inclusive Sans', sans-serif;
+    margin: 0;
+}
 
 h1,
 h2,
 h3{color: #000066}
 
-h1 {font-size: 50px;}
+h1 {font-size: 50px;
+margin-bottom: 0;
+}
 
-h2{font-size: 23px;}
+h2{font-size: 23px;
+margin-bottom: 0;
+margin-top: 5px;
+}
 
-a{font-style: italic;}
+h3{padding-bottom: 20px;
+    margin-top: 3px;
+
+}
+
+a{font-style: italic;
+}
 
 .hlavicka{background-color: #A8C1DA;
-    text-align: center;}
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
 
 .paticka{background-color: #A8C1DA;
     text-align: center;
     color: #000066;
-    padding:10px 0}
+    padding:10px 0;
+}
 
 .foto{width: 200px;
     border: 2px solid #000066;
-    border-radius: 50%;}
+    border-radius: 50%;
+    float: right;
+    margin:0 0 30px 30px;
+
+}
 
 .skola{padding-left: 20px;
     color: #000066;
@@ -40,3 +60,7 @@ a{font-style: italic;}
 section{padding: 10px 15%;}
 
 .dovednosti{padding-bottom: 70px;}
+
+ul{padding: 0 0 0 15px;
+    margin: 0 0 0 5px;
+}
