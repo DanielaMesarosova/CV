@@ -1,18 +1,15 @@
 body{background-color: #EEF5FC;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5; 
     font-family: 'Inclusive Sans', sans-serif;}
 
 h1,
 h2,
-h3,
-h4 {color: #000066}
+h3{color: #000066}
 
 h1 {font-size: 50px;}
 
 h2{font-size: 23px;}
-
-h4{font-style: italic;}
 
 a{font-style: italic;}
 
@@ -21,13 +18,25 @@ a{font-style: italic;}
 
 .paticka{background-color: #A8C1DA;
     text-align: center;
-    color: #000066}
-
-.pozice{color: #000066}
+    color: #000066;
+    padding:10px 0}
 
 .foto{width: 200px;
     border: 2px solid #000066;
-    border-radius: 50%;
-}
+    border-radius: 50%;}
 
+.skola{padding-left: 20px;
+    color: #000066;
+    font-weight: bold;}
 
+.text{padding-left: 20px;}
+
+.nadpis{color: #000066; 
+    font-weight: bold;}
+  
+.zamestnavatel{color: #000066; 
+    font-weight: bold;}
+
+section{padding: 10px 15%;}
+
+.dovednosti{padding-bottom: 70px;}
